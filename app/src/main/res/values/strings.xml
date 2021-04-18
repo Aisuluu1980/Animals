@@ -3,5 +3,13 @@
     <string name="first">Hamster</string>
     <string name="second">Cat</string>
     <string name="third">Dog</string>
-    <string name="text_main"> </string>
+    <string name="text_main"> Домашние задания </string>
+    <string name="sum">+</string>
+    <string name="sub">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="calculator">Calculator</string>
+    <string name="animals">Animals</string>
+    <string name="text_animals"> </string>
+    <string name="result"> </string>
 </resources>
