@@ -4,7 +4,7 @@
     <string name="second">Cat</string>
     <string name="third">Dog</string>
 
-    <string name="text_main">Курс "KOTLIN"(24-26 занятие). </string>
+    <string name="text_main">Курс "KOTLIN"(24-33 занятия). </string>
     <string name="sum">+</string>
     <string name="sub">-</string>
     <string name="multi">*</string>
@@ -20,7 +20,7 @@
     <string name="accept">Урок №26 "Buttons"</string>
     <string name="toast_text">Успешно выполнено!</string>
 
-    <string name="chronometr">Chronometr</string>
+    <string name="chronometr">Chronometer</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
