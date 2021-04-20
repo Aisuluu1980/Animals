@@ -24,4 +24,9 @@
     <string name="text1">Макет LinearLayout в Android группирует элементы в одну линию. В разметке макета указываем атрибут android:orientation, который определяет тип размещения: по вертикали или по горизонтали. По умолчанию стоит значение по горизонтали.</string>
     <string name="text2">Значение «по вертикали» в LinearLayout означает только один дочерний элемент в строке, а «по горизонтали» означает одну сплошную строку элементов на экране.</string>
     <string name="text3">Атрибут android:layout_weight указывает важность элемента. Элемент с большим весом занимает больше места на экране.</string>
+    <string name="my_color">My Color</string>
+    <string name="green_btn">Зеленый</string>
+    <string name="yellow_btn">Желтый</string>
+    <string name="red_btn">Красный</string>
+    <string name="color_text">Hello World!</string>
 </resources>

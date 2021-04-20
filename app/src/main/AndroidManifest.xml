@@ -19,18 +19,23 @@
         </activity>
         <activity
             android:name=".ActivityAnimal"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ActivityCalculator"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LessonsActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ActivityChronometer"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".ActivityLinear"
-            android:parentActivityName=".LessonsActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityLinear"
+            android:parentActivityName=".LessonsActivity" />
+        <activity
+            android:name=".ActivityMyColor"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
