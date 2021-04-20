@@ -21,8 +21,23 @@
         android:text="@string/text_main"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
-        android:textSize="35sp"/>
+        android:textSize="35sp"
+        android:gravity="center_horizontal"/>
     </LinearLayout>
+    <Button
+        android:id="@+id/btn_lessons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lessons" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/animals" />
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
@@ -31,10 +46,11 @@
         android:layout_alignParentTop="true"
         android:text="@string/calculator" />
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:text="@string/animals" />
+        android:text="@string/chronometr" />
+
 </LinearLayout>

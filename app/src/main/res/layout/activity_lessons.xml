@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LessonsActivity">
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="Урок № 26 'Buttons'."
+        android:textColor="@color/black"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btn_lesson_27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_btn_rounded"
+        android:enabled="false"
+        android:text="@string/lesson_27"
+        android:textColor="@color/black" />
+</LinearLayout>
+
+<!--в папке drawable создала 3 файл в одном свойства для кнопки пока не нажали ее
+в другом файл свойства кнопки после нажатия, цает меняет, и чтобы все это применить
+в файле selector  прописываю через item и добавляю в background для кнопки-->

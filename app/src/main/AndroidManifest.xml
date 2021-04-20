@@ -27,7 +27,14 @@
             android:parentActivityName=".MainActivity">
 
         </activity>
+        <activity android:name=".LessonsActivity"
+            android:parentActivityName=".MainActivity">
 
+        </activity>
+        <activity android:name=".ActivityChronometer"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
     </application>
 
 </manifest>
