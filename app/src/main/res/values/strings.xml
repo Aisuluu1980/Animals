@@ -3,30 +3,52 @@
     <string name="first">Hamster</string>
     <string name="second">Cat</string>
     <string name="third">Dog</string>
+
     <string name="text_main">Курс "KOTLIN"(24-26 занятие). </string>
     <string name="sum">+</string>
     <string name="sub">-</string>
     <string name="multi">*</string>
     <string name="div">/</string>
     <string name="calculator">Calculator</string>
+
     <string name="animals">Animals</string>
     <string name="text_animals"> </string>
     <string name="result"> </string>
+
     <string name="lessons"> ЗАНЯТИЯ </string>
+
     <string name="accept">Урок №26 "Buttons"</string>
     <string name="toast_text">Успешно выполнено!</string>
+
     <string name="chronometr">Chronometr</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
+
     <string name="lesson_27">Урок №27 "Button Shape"</string>
-    <string name="lesson_28">Урок №28 "LinearLayout"</string>
-    <string name="text1">Макет LinearLayout в Android группирует элементы в одну линию. В разметке макета указываем атрибут android:orientation, который определяет тип размещения: по вертикали или по горизонтали. По умолчанию стоит значение по горизонтали.</string>
+
+    <string name="lesson_28">Урок №28 "Linear Layout"</string>
+    <string name="text1">Макет Linear Layout в Android группирует элементы в одну линию. В разметке макета указываем атрибут android:orientation, который определяет тип размещения: по вертикали или по горизонтали. По умолчанию стоит значение по горизонтали.</string>
     <string name="text2">Значение «по вертикали» в LinearLayout означает только один дочерний элемент в строке, а «по горизонтали» означает одну сплошную строку элементов на экране.</string>
     <string name="text3">Атрибут android:layout_weight указывает важность элемента. Элемент с большим весом занимает больше места на экране.</string>
+
     <string name="my_color">My Color</string>
     <string name="green_btn">Зеленый</string>
     <string name="yellow_btn">Желтый</string>
     <string name="red_btn">Красный</string>
     <string name="color_text">Hello World!</string>
+
+    <string name="lesson_29">Урок №29 "Relative Layout"</string>
+    <string name="btn_rel1">Button 1</string>
+    <string name="btn_rel2">Button 2</string>
+    <string name="btn_rel3">Button 3</string>
+    <string name="btn_rel4">Button 4</string>
+    <string name="btn_rel5">Button 5</string>
+    <string name="btn_rel6">Button 6</string>
+    <string name="btn_rel7">Button 7</string>
+    <string name="btn_rel8">Button 8</string>
+    <string name="btn_rel9">Button 9</string>
+    <string name="btn_rel10">Button 10</string>
+    <string name="btn_rel11">Button 11</string>
+    <string name="btn_rel12">Button 12</string>
 </resources>

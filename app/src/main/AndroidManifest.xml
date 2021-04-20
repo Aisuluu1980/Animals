@@ -36,6 +36,10 @@
             android:name=".ActivityMyColor"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity
+            android:name=".ActivityRelative"
+            android:parentActivityName=".LessonsActivity">
+        </activity>
     </application>
 
 </manifest>
