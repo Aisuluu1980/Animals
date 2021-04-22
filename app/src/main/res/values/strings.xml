@@ -51,4 +51,14 @@
     <string name="btn_rel10">Button 10</string>
     <string name="btn_rel11">Button 11</string>
     <string name="btn_rel12">Button 12</string>
+
+    <string name="lesson_30">Урок №30 Constraint Layout</string>
+    <string name="btn_const1">Button1</string>
+    <string name="btn_const2">Button2</string>
+    <string name="btn_const3">Button3</string>
+    <string name="text_const1">Const</string>
+    <string name="text_const2">Constraint</string>
+    <string name="btn_const4">Button4</string>
+    <string name="btn_const5">Урок 31.2 Constraint Layout</string>
+    <string name="lesson_31">\"Урок №31 Constraint Layout part2\"</string>
 </resources>

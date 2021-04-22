@@ -11,6 +11,9 @@ class LessonsActivity : AppCompatActivity() {
     lateinit var btnShape: Button
     lateinit var btnLinear: Button
     lateinit var btnRelative: Button
+    lateinit var btnConstraint: Button
+    lateinit var btnConstraint2: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +40,16 @@ class LessonsActivity : AppCompatActivity() {
         btnRelative.setOnClickListener{
             val relativeIntent = Intent(this, ActivityRelative::class.java)
             startActivity(relativeIntent)
+        }
+        btnConstraint = findViewById(R.id.btn_lesson_30)
+        btnConstraint.setOnClickListener{
+            val constraintIntent = Intent(this, ActivityConstraint::class.java)
+            startActivity(constraintIntent)
+        }
+        btnConstraint2 = findViewById(R.id.btn_lesson_31)
+        btnConstraint2.setOnClickListener{
+            val constIntent = Intent(this, ActivityConstraint2::class.java)
+            startActivity(constIntent)
         }
     }
 }

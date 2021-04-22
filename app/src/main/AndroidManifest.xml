@@ -34,12 +34,16 @@
             android:parentActivityName=".LessonsActivity" />
         <activity
             android:name=".ActivityMyColor"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".ActivityRelative"
-            android:parentActivityName=".LessonsActivity">
-        </activity>
+            android:parentActivityName=".LessonsActivity"></activity>
+        <activity
+            android:name=".ActivityConstraint"
+            android:parentActivityName=".LessonsActivity"></activity>
+        <activity
+            android:name=".ActivityConstraint2"
+            android:parentActivityName=".LessonsActivity"></activity>
     </application>
 
 </manifest>

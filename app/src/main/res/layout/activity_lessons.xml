@@ -42,6 +42,22 @@
         android:text="@string/lesson_29"
         android:background="@color/green"
         android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn_lesson_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/lesson_30"
+        android:background="@color/green"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn_lesson_31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/lesson_31"
+        android:background="@color/green"
+        android:textColor="@color/black" />
 </LinearLayout>
 
 <!--в папке drawable создала 3 файл в одном свойства для кнопки пока не нажали ее
