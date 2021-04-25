@@ -12,24 +12,21 @@ class ActivityAnimal : AppCompatActivity() {
     lateinit var image_2: ImageView
     lateinit var image_3: ImageView
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_animal)
 
-        textview = findViewById(R.id.textView) as TextView
+        textview = findViewById(R.id.textView)
 
-        image_1 = findViewById(R.id.image_1) as ImageView
+        image_1 = findViewById(R.id.image_1)
         image_1.setOnClickListener{
             textview.text = getString((R.string.first))
         }
-
-        image_2 = findViewById(R.id.image_2) as ImageView
+        image_2 = findViewById(R.id.image_2)
         image_2.setOnClickListener{
             textview.text = getString((R.string.second))
         }
-
-        image_3 = findViewById(R.id.image_3) as ImageView
+        image_3 = findViewById(R.id.image_3)
         image_3.setOnClickListener{
             textview.text = getString((R.string.third))
         }

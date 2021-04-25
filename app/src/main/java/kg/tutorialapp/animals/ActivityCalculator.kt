@@ -22,23 +22,26 @@ class ActivityCalculator : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculator)
 
-        num1 = findViewById(R.id.number1) as EditText
-        num2 = findViewById(R.id.number2) as EditText
-        result = findViewById(R.id.result) as TextView
+        val actionBar = supportActionBar
+        actionBar!!.title = "Simple calculator"
 
-        btn_add = findViewById(R.id.btnPlus) as Button
+        num1 = findViewById(R.id.number1)
+        num2 = findViewById(R.id.number2)
+        result = findViewById(R.id.result)
+
+        btn_add = findViewById(R.id.btnPlus)
         btn_add.setOnClickListener() {
             add()
         }
-        btn_subtract = findViewById(R.id.btnSub) as Button
+        btn_subtract = findViewById(R.id.btnSub)
         btn_subtract.setOnClickListener() {
             subtract()
         }
-        btn_multiply = findViewById(R.id.btnMulti) as Button
+        btn_multiply = findViewById(R.id.btnMulti)
         btn_multiply.setOnClickListener() {
             multiply()
         }
-        btn_divide = findViewById(R.id.btnDiv) as Button
+        btn_divide = findViewById(R.id.btnDiv)
         btn_divide.setOnClickListener() {
             divide()
         }

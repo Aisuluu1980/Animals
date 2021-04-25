@@ -37,6 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_const2"
         app:layout_constraintVertical_bias="0.09"
         app:layout_constraintWidth_percent="0.6" />
+
     <Button
         android:id="@+id/btn_const4"
         android:layout_width="0dp"
@@ -82,6 +83,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.341" />
+
+    <EditText
+        android:id="@+id/editText_const"
+        android:layout_width="204dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/test_get_data"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btn_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:text="@string/btn_test_get_data"
+        android:textAlignment="center"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_const" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -19,22 +19,25 @@ class ActivityMyColor : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_color)
 
-        layout_main = findViewById(R.id.main_layout) as ConstraintLayout
+        val actionBar = supportActionBar
+        actionBar!!.title = "My Color"
+
+        layout_main = findViewById(R.id.main_layout)
         textColor = findViewById(R.id.text_color)
 
-        btnRed = findViewById(R.id.btn_red) as Button
+        btnRed = findViewById(R.id.btn_red)
         btnRed.setOnClickListener {
             textColor.text = resources.getText(R.string.red_btn)
             layout_main.setBackgroundColor(Color.RED)
         }
 
-        btnYellow = findViewById(R.id.btn_yellow) as Button
+        btnYellow = findViewById(R.id.btn_yellow)
         btnYellow.setOnClickListener {
             textColor.text = resources.getText(R.string.yellow_btn)
             layout_main.setBackgroundColor(Color.YELLOW)
         }
 
-        btnGreen = findViewById(R.id.btn_green) as Button
+        btnGreen = findViewById(R.id.btn_green)
         btnGreen.setOnClickListener {
             textColor.text = resources.getText(R.string.green_btn)
             layout_main.setBackgroundColor(Color.GREEN)

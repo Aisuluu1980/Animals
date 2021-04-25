@@ -18,6 +18,9 @@ class ActivityChronometer : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chronometer)
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Chronometer"
+
         btn_start = findViewById(R.id.start)
         btn_stop = findViewById(R.id.stop)
         btn_reset = findViewById(R.id.reset)

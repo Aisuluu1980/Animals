@@ -15,13 +15,16 @@ class ActivityLinear : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_linear)
 
-        text1 = findViewById(R.id.view) as TextView
+        val actionBar = supportActionBar
+        actionBar!!.title = "Linear Layout"
+
+        text1 = findViewById(R.id.view)
         text1.text = getText(R.string.text1)
 
-        text2 = findViewById(R.id.view2) as TextView
+        text2 = findViewById(R.id.view2)
         text2.text = getText(R.string.text2)
 
-        text3 = findViewById(R.id.view3) as TextView
+        text3 = findViewById(R.id.view3)
         text3.text = getText(R.string.text3)
     }
 }

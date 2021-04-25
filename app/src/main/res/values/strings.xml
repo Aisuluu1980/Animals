@@ -15,7 +15,7 @@
     <string name="text_animals"> </string>
     <string name="result"> </string>
 
-    <string name="lessons"> ЗАНЯТИЯ </string>
+    <string name="lessons"> LESSONS </string>
 
     <string name="accept">Урок №26 "Buttons"</string>
     <string name="toast_text">Успешно выполнено!</string>
@@ -60,5 +60,25 @@
     <string name="text_const2">Constraint</string>
     <string name="btn_const4">Button4</string>
     <string name="btn_const5">Урок 31.2 Constraint Layout</string>
+
     <string name="lesson_31">\"Урок №31 Constraint Layout part2\"</string>
+
+
+    <string name="textconst_2">Text first</string>
+    <string name="textconst3">Text second</string>
+    <string name="textconst4">Text third</string>
+    <string name="textconst5">Text forth</string>
+    <string name="textconst7">Text six</string>
+    <string name="textconst8">Text seven</string>
+    <string name="textconst9">Text eight</string>
+    <string name="btn_11">Button8</string>
+    <string name="btn_1">Button1</string>
+    <string name="btn_2">Button2</string>
+    <string name="btn_7">Button7</string>
+    <string name="btn_6">Button6</string>
+
+
+    <string name="text_from_activity" />
+    <string name="test_get_data">Введите данные</string>
+    <string name="btn_test_get_data">Передать данные</string>
 </resources>
